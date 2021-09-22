@@ -17,7 +17,7 @@ int main()
 	z2 = 2 * sqrt(2) * cos(x) * sin((Pi / 4) + (2 * x));
 
 	cout << endl;
-	cout << "z1 =" << z1 << endl;
+	//cout << "z1 =" << z1 << endl;
 	cout << "z2 =" << z2 << endl;
 
 	cin.get();
