@@ -13,12 +13,12 @@ int main()
 
 	cout << " x = "; cin >> x;
 
-	z1 = cos(x) + sin(x) + cos(3 * x) + sin(3 * x);
-	//z2 = 2 * sqrt(2) * cos(x) * sin((Pi / 4) + (2 * x));
+	//z1 = cos(x) + sin(x) + cos(3 * x) + sin(3 * x);
+	z2 = 2 * sqrt(2) * cos(x) * sin((Pi / 4) + (2 * x));
 
 	cout << endl;
 	cout << "z1 =" << z1 << endl;
-	//cout << "z2 =" << z2 << endl;
+	cout << "z2 =" << z2 << endl;
 
 	cin.get();
 	return 0;
